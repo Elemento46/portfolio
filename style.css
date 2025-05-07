@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Centralizar o conteúdo com flexbox ao invés de <center> */
+body > center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color: #0077cc;
+}
+
+header h4 {
+    font-weight: normal;
+    color: #555;
+}
+
+header img {
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+/* Links sociais */
+header a img {
+    margin: 0 10px;
+}
+
+/* Navegação */
+#informações {
+    margin: 20px 0;
+}
+
+#informações a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+#informações a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards de projeto */
+.cardProjeto {
+    margin: 10px 0;
+}
+
+.cardProjeto a {
+    display: inline-block;
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cardProjeto a:hover {
+    background-color: #005fa3;
+}
+
+/* Skills */
+#skills p {
+    display: inline-block;
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
