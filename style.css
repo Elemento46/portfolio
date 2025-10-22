@@ -91,7 +91,7 @@ header h4 {
 }
 
 .social {
-    background: #e5e7eb;
+    background: #595d64ae;
     border-radius: 12px;
     padding: 12px 16px;
     display: inline-flex;
@@ -332,4 +332,21 @@ summary:focus-visible {
     section {
         padding: 28px
     }
+}
+
+#bibliotecas {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: var(--text-soft);
+    text-align: center;
+}
+#bibliotecas p {
+    margin: 6px 0;
+}
+#bibliotecas a {
+    color: var(--accent-weak);
+    text-decoration: none;
+}
+#bibliotecas a:hover {
+    text-decoration: underline;
 }
