@@ -8,7 +8,7 @@ particlesJS('particles-js', {
     particles: {
         number: { value: 850, density: { enable: true, value_area: 900 } },
         color: { value: '#ffffff' },
-        shape: { type: 'circle' },
+        shape: { type: 'triangle' },
         opacity: { value: 0.55, random: true },
         size: { value: 3, random: true },
         line_linked: { enable: true, distance: 140, color: '#ffffff', opacity: 0.25, width: 1 },
