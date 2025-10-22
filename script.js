@@ -7,10 +7,10 @@ const sr = ScrollReveal({
     viewFactor: 0.15,
     viewOffset: { top: 0, right: 0, bottom: 24, left: 0 }
 });
-sr.reveal('.informações', { origin: 'top', interval: 80 });
+sr.reveal('.informações', { origin: 'left', interval: 80 });
 sr.reveal('.sobre', { origin: 'left' });
-sr.reveal('.projetos', { origin: 'right' });
-sr.reveal('.skills', { origin: 'bottom' });
+sr.reveal('.projetos', { origin: 'left' });
+sr.reveal('.skills', { origin: 'left' });
 
 particlesJS('particles-js', {
     particles: {
@@ -24,7 +24,7 @@ particlesJS('particles-js', {
     },
     interactivity: {
         detect_on: 'window',
-        events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'repulse' }, resize: true },
+        events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
         modes: { repulse: { distance: 100, duration: 0.4 } }
     },
     retina_detect: true
