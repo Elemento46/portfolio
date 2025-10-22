@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "scrollreveal": "^4.0.9"
+    "scrollreveal": "^4.0.9",
+    "stats.js": "^0.17.0"
   }
 }
