@@ -6,10 +6,10 @@ sr.reveal('.skills', { origin: 'bottom' });
 
 particlesJS('particles-js', {
     particles: {
-        number: { value: 850, density: { enable: true, value_area: 900 } },
+        number: { value: 650, density: { enable: true, value_area: 1100 } },
         color: { value: '#ffffff' },
         shape: { type: 'triangle' },
-        opacity: { value: 0.55, random: true },
+        opacity: { value: 0.18, random: true },
         size: { value: 3, random: true },
         line_linked: { enable: true, distance: 140, color: '#ffffff', opacity: 0.25, width: 1 },
         move: { enable: true, speed: 2.5, direction: 'none', random: false, straight: false, out_mode: 'out', bounce: false }
