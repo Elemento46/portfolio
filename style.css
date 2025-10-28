@@ -146,7 +146,7 @@ header h4 {
 }
 
 #informações a:hover {
-    background: rgba(255, 255, 255, .06);
+    background: rgba(255, 255, 255, 0.241);
     transform: translateY(-2px)
 }
 
